@@ -1,0 +1,14 @@
+npm install serverless
+
+then you need a template 
+serverless create -t aws-nodejs
+
+go into the serverless.yml and pick the stuff you want
+
+-on aws-
+go under your name
+my security credentials
+access keys
+
+once you get a key go into terminal
+serverless config credentials --provider aws --key AKIAIJCQWTEFHV6IN3TQ --secret z5j7uW2zVEb797WBf5ulYMLCvMlul8tBCaX+Z4/P
